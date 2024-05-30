@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="BatchExecution.LaunchingAmazon"/>
+      <class name="BatchExecution.LaunchingDominoz"/>
+      <class name="BatchExecution.LaunchingMyntra"/>
+      <class name="BatchExecution.LaunchingZomato"/>
+      <class name="BatchExecution.LaunchingSwiggy"/>
+      <class name="BatchExecution.LaunchingMeesho"/>
+      <class name="BatchExecution.LuanchingPizza"/>
+      <class name="BatchExecution.LaunchingAjio"/>
+      <class name="BatchExecution.LaunchingFlipkart"/>
+      <class name="BatchExecution.LaunchingSubway"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
